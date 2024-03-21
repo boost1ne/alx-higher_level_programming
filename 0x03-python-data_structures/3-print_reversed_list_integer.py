@@ -2,7 +2,7 @@
 
 def print_reversed_list_integer(my_list=[]):
     if not my_list:
-        retun None
+        return None
 
     my_list.reverse()
     for el in my_list:
