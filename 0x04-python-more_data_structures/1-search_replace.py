@@ -1,3 +1,3 @@
 #!/usr/bin/python3
-def square_matrix_simple(matrix=[]):
-    return [[row[i]**2 for i in range(len(row))] for row in matrix]
+def search_replace(my_list, search, replace):
+    return [num if not num == search else replace for num in my_list]
