@@ -3,9 +3,9 @@
 """Define class square"""
 
 
-class square():
+class Square():
 
     """the class square."""
 
-    def __init__(self, __size) - None:
+    def __init__(self, __size) -> None:
         self.__size == __size
