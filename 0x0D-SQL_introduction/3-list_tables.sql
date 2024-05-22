@@ -1,3 +1,3 @@
-# Get list of all my db tables
+-- Get list of all my db tables
 
 SHOW TABLES mysql;
