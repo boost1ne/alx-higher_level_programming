@@ -2,4 +2,4 @@
 -- in a descending order
 
 SELECT score, name FROM second_table
-WHERE name != "" ORDER BY score score DESC
+WHERE name != "" ORDER BY score DESC
