@@ -1,7 +1,9 @@
--- Create a table with an auto-generated uniq pk id att.
+-- DOC --
 
 CREATE DATABASE IF NOT EXISTS hbtn_0d_usa;
-CREATE TABLE IF NOT EXISTS states(
-	id INT NOT NULL UNIQUE PRIMARY KEY AUTO_INCREMENT,
-	name VARCHAR(256) NOT NULL
-);
+USE hbtn_0d_usa
+CREATE TABLE
+    IF NOT EXISTS states (
+        id INT AUTO_INCREMENT NOT NULL PRIMARY KEY UNIQUE,
+        name VARCHAR(256)
+    )
