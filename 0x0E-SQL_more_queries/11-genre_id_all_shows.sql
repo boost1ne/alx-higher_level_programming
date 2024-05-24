@@ -1,7 +1,6 @@
---Display tv all show titles and some genres id from 2 tables.
+--  lists all tv shows.
 
-SELECT tv_shows.title, tv_show_genres.genre_id
-FROM tv_shows
-LEFT JOIN tv_show_genres
-ON tv_showd.id = tv_show_genres.show_id
-ORDER BY tv_shows.title, tv_show_genres.genre_id ASC;
+SELECT t.title, g.genre_id
+FROM tv_shows t
+LEFT JOIN tv_show_genres g ON t.id = g.show_id
+ORDER BY t.title, g.genre_id ASC;
