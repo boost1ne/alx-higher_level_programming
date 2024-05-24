@@ -1,5 +1,6 @@
 --Display attributes from different tables
 
-SELECT cities.id, cities.name, states.name FROM cities
-JOIN states ON cities.state_id = states.id
-ORDER BY cities.id ASC;
+SELECT c.id, c.name, s.name
+FROM cities c
+INNER JOIN states s ON c.state_id = s.id
+ORDER BY c.id ASC;
